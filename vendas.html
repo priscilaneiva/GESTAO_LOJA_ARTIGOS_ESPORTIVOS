@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+</head>
+<body>
+    <hr>
+ <h2>Cadastrar Produto</h2> 
+
+ <form>
+ <label>Produto</label><br>
+ <input type="text" name="produto"/><br><br>
+
+ <label>Categoria:</label><br>
+ <select>
+     <option value="0">--Selecione --</option>
+     <option value="1">Camisa</option>
+     <option value="2">Bermuda</option>
+     <option value="3">Calçado</option>
+ </select><br><br><br>
+
+ <label>Valor(R$)</label><br>
+ <input type="text" name="valor"/>
+
+ <input type="submit" value="Cadastrar" />
+ 
+ <h2>Produtos cadastrados</h2>
+ <table border="1">
+    <tr>
+        <th>Produto</th>
+        <th>Categoria</th>
+        <th>Valor(R$)</th>
+        <th>Ações</th>
+    </tr>
+    <tr>
+         <td>Blusa Social</td>
+         <td>Camisa</td>
+         <td>R$80,00</td>
+         <td><buton>Editar</buton> <button>Excluir</td>
+    </tr>
+    <tr>
+        <td>Jeans</td>
+        <td>Bermuda</td>
+        <td>R$50,00</td>
+        <td><buton>Editar</buton> <button>Excluir</td>
+    </tr>
+    <tr>
+        <td>Tênis</td>
+        <td>Calçado</td>
+        <td>R$110,00</td>
+        <td><buton>Editar</buton> <button>Excluir</td>
+    </tr>
+ </table>
+
+
+</form>
+</hr>
+   
+</body>
+</html>
